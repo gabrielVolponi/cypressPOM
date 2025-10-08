@@ -27,7 +27,7 @@ Automated E2E tests for [Sauce Demo](https://www.saucedemo.com) using Cypress wi
 ### Installation
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/gabrielVolponi/cypressPOM)
 
 npm install
 ```
