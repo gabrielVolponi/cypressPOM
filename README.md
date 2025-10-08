@@ -15,9 +15,7 @@ Automated E2E tests for [Sauce Demo](https://www.saucedemo.com) using Cypress wi
 **Test Coverage:**
 - Authentication (login/logout)
 - Shopping cart operations
-- Checkout flow with validations
-- Product sorting and filtering
-- Navigation and state persistence
+
 
 ## 🚀 Quick Start
 
@@ -31,7 +29,15 @@ Automated E2E tests for [Sauce Demo](https://www.saucedemo.com) using Cypress wi
 ```bash
 git clone https://github.com/gabrielVolponi/cypressPOM)
 
-cd cypress-saucedemo-tests
-
 npm install
+```
+
+### Run the Project
+
+```bash
+
+npx cypress run   - runs all tests in headless mode
+npx cypress run --spec specName  - runs a test suite in headless mode
+npx cypress open  - runs all tests in UI mode
+
 ```
