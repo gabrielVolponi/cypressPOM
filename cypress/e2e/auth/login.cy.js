@@ -1,33 +1,32 @@
 /// <reference types="cypress" />
 
 import Login from "../../pages/auth";
+import Inventory from "../../pages/inventory";
 
 describe("template spec", () => {
-
-  beforeEach('', () => {
+  beforeEach("", () => {
     Login.visitPage();
     Login.checkUrl();
-
-  })
+  });
   it("Visit Login Page", () => {
     Login.visitPage();
   });
 
-  it('Login With Valid Credentials', () => {
+  it("Login With Valid Credentials", () => {
     Login.fillValidCredentials();
+    Inventory.checkUrl();
   });
 
-  it('Login With Invalid Credentials', () => {
+  it("Login With Invalid Credentials", () => {
     Login.fillWrongCredentials();
   });
 
-  it('Login With Locked Out User', () => {
+  it("Login With Locked Out User", () => {
     Login.fillLockedCredentials();
   });
 
-  it('Login With Problem User', () => {
+  it("Login With Problem User", () => {
     Login.fillProblemCredentials();
+    Inventory.checkUrl();
   });
-
-
 });
