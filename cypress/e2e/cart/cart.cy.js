@@ -10,7 +10,7 @@ describe("Cart", () => {
     Cart.checkUrl();
   });
 
-  it("Visit Cart Page", () => {
+  it("Visit Cart Page @smoke", () => {
     Cart.visitPage();
     Cart.checkUrl();
   });

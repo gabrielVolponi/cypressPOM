@@ -8,11 +8,11 @@ describe("template spec", () => {
     Login.visitPage();
     Login.checkUrl();
   });
-  it("Visit Login Page", () => {
+  it("Visit Login Page @smoke", () => {
     Login.visitPage();
   });
 
-  it("Login With Valid Credentials", () => {
+  it("Login With Valid Credentials @smoke", () => {
     Login.fillValidCredentials();
     Inventory.checkUrl();
   });

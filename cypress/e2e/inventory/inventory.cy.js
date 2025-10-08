@@ -10,7 +10,7 @@ describe("template spec", () => {
     Login.fillValidCredentials();
     Inventory.checkUrl();
   });
-  it("Visit Inventory Page", () => {
+  it("Visit Inventory Page @smoke", () => {
     Inventory.visitPage();
     Inventory.checkUrl();
   });
