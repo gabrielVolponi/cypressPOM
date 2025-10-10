@@ -1,6 +1,6 @@
 # Cypress Automation - Sauce Demo
 
-Automated E2E tests for [Sauce Demo](https://www.saucedemo.com) using Cypress with Page Object Model.
+Automated E2E tests for [Sauce Demo](https://www.saucedemo.com) using Cypress with Page Object Model
 
 ## 🎯 Scope
 
